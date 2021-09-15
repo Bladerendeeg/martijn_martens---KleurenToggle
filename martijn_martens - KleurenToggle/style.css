@@ -1,0 +1,49 @@
+.menu__icon {
+    font-size: 30px;
+    cursor: pointer;
+    color: black;
+}
+.menu__colored {
+    list-style: none;
+    padding-inline-start: 0px;
+    max-width: 250px;
+    height: 0;
+    display: none;
+    transition: 0.3s;
+}
+.menu__toggle .menu__colored {
+    display: block;
+    height: 100%;
+    transition: 0.2s;
+}
+.menu__colored li {
+    border-bottom: 1px solid #BAB1B0;
+    padding: 10px 12px;
+}
+.menu__colored:hover {
+    cursor: pointer;
+}
+.menu__colored--wit {
+    background-color: white;
+    color:#000;
+}
+.menu__colored--rood {
+    background-color: lightcoral;
+    color: red;
+}
+.menu__colored--blauw {
+    background-color: lightskyblue;
+    color: blue;
+}
+.menu__colored--groen {
+    background-color: lightgreen;
+    color: green;
+}
+.menu__colored--oranje {
+    background-color: rgb(253, 202, 107);
+    color: orange;
+}
+.menu__colored--grijs {
+    background-color: lightgray;
+    color: grey;
+}
